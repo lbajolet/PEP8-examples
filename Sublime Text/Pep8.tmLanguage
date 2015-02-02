@@ -7,7 +7,7 @@
 		<string>pep</string>
 	</array>
 	<key>name</key>
-	<string>PEP-8</string>
+	<string>Pep8</string>
 	<key>patterns</key>
 	<array>
 		<dict>

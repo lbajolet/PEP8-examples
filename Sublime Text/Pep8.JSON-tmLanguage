@@ -1,5 +1,5 @@
 // [PackageDev] target_format: plist, ext: tmLanguage
-{ 	"name": "PEP-8",
+{ 	"name": "Pep8",
   	"scopeName": "source.pep8",
   	"fileTypes": ["pep"],
   	"uuid": "b2423139-ebee-4453-bb51-74755ea62af4",

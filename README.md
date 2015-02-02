@@ -4,7 +4,7 @@
 
 Cette page est utilisée comme dépôt pour le matériel relatif au langage d'assembleur PEP-8, les sujets, exercices et corrections des démos pour le cours INF2170 de l'Université du Québec À Montréal.
 
-Les sujets et exercices seront rédigés en Français conformément au règlements de l'UQAM.
+Les sujets et exercices seront rédigés en Français conformément aux règlements de l'UQAM.
 
 Au cas ou des personnes externes au cours souhaiteraient se renseigner sur le langage et utiliser les exercices et corrections pour se pratiquer, le contenu est également disponible en Anglais.
 

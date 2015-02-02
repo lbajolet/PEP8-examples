@@ -14,6 +14,14 @@ Au cas ou vous trouveriez des erreurs dans le code des corrections disponibles i
 
 Si vous souhaitez utiliser et modifier les programmes disponibles sur ce dépôt, vous êtes encouragés à le cloner et modifier le contenu des programmes stockés ici, le tout est disponible sous licence Apache 2.
 
+## Coloration Syntaxique
+
+Pour ceux ne voulant/pouvant pas utiliser la version graphique du simulateur PEP-8, une alternative serait de coder vos programmes PEP-8 sous Sublime-Text ou Textmate pour ensuite les exécuter avec la version console de PEP-8.
+
+Si vous décidez de suivre ce chemin, vous aurez juste besoin de copier le fichier plist depuis le répertoire Sublime-Text de ce dépôt vers votre dossier Packages de Sublime-Text.
+
+A partir de ce moment-là, les fichier `.pep` seront colorés adéquatement sur Sublime-Text.
+
 # English
 
 # PEP8-demo
@@ -29,3 +37,11 @@ If any material is deemed missing, please submit an issue explaining your demand
 Should you find an error in any program available on the repo, you're encouraged to submit a Pull-Request with your fixes and an explanation of the errors.
 
 Should you want to modify the programs available on this repository, feel free to do so, they're under the Apache 2 license and can be modified as you wish.
+
+## Syntax Highlighting
+
+For those who do not wish/cannot use the Graphical version of PEP-8, an alternative might be to use either Sublime-Text or TextMate + the console version of PEP-8.
+
+If you choose to go through this path, the files you will need are available on this repository in the Sublime-Text folder.
+
+The only thing you will need to do is to copy the plist file to your Sublime-Text package folder, and it will become instantly available for Sublime-Text, automatically on `.pep` files.

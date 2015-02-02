@@ -26,7 +26,7 @@ var x = deci
 if x > 10 then
 	print "> 10"
 else
-	print <= 10
+	print "<= 10"
 end
 
 ~~~
@@ -187,7 +187,7 @@ var x = deci
 if x > 10 then
 	print "> 10"
 else
-	print <= 10
+	print "<= 10"
 end
 
 ~~~

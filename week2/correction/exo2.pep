@@ -11,9 +11,9 @@ out:		STOP
 ; Number to be read
 nb:		.BLOCK 2
 
-; Greater than 10 message
+; Greater or equal to 10 message
 ge10msg:	.ASCII ">= 10\x00"
-; Lesser or equal to 10 message
+; Lesser than 10 message
 lt10nsg:	.ASCII "< 10\x00"
 
 		.END

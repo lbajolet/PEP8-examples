@@ -139,23 +139,15 @@ Traduisez ce pseudo-code en assembleur
 
 ~~~nit
 
-var str = "String 1"
-var strlen = 8
+var c = chari
 
-var pos = 0
-
-while pos < strlen do
-	if str[pos] < 'A' then break
-	if str[pos] > 'z' then break
-	if str[pos] > 'Z' and str[i] < 'a' then break
-	pos += 1
+while c != '\n' do
+	if str[pos] < 'A' or if str[pos] > 'z' then print "There was a non-letter character in the string"
+	if str[pos] > 'Z' and str[i] < 'a' then print "There was a non-letter character in the string"
+	c = chari
 end
 
-if pos == length then
-	print "The string contained letters only"
-else
-	print "There was a non-letter character in the string"
-end
+print "The string contained letters only"
 
 ~~~
 
@@ -300,22 +292,14 @@ Translate this pseudo-code to assembly
 
 ~~~nit
 
-var str = "String 1"
-var strlen = 8
+var c = chari
 
-var pos = 0
-
-while pos < strlen do
-	if str[pos] < 'A' then break
-	if str[pos] > 'z' then break
-	if str[pos] > 'Z' and str[i] < 'a' then break
-	pos += 1
+while c != '\n' do
+	if str[pos] < 'A' or if str[pos] > 'z' then print "There was a non-letter character in the string"
+	if str[pos] > 'Z' and str[i] < 'a' then print "There was a non-letter character in the string"
+	c = chari
 end
 
-if pos == length then
-	print "The string contained letters only"
-else
-	print "There was a non-letter character in the string"
-end
+print "The string contained letters only"
 
 ~~~

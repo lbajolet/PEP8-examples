@@ -6,7 +6,10 @@
 ; stream is considered to be the line being read).
 mainlp:		CHARI	tmpchr, d
 		LDBYTEA	tmpchr, d
-		ANDA	0x00FF, i
+		ANDA	255, i	; There seems to be a bug when using 0x00FF with ANDA
+				; In this case, the result is wrong, but when using 255, i
+				; the result appears to be correct
+				; NOTE: This might be a Pep8Term specific issue.
 		CPA	'\n', i
 		BREQ	outsucc
 ; Once validated, start checking
@@ -14,9 +17,9 @@ lpcode:		CPA	'A', i
 		BRLT	outfl
 		CPA	'z', i
 		BRGT	outfl
-		CPA	'Z'
+		CPA	'Z', i
 		BRLE	mainlp
-		CPA	'a'
+		CPA	'a', i
 		BRLT	outfl
 		BR	mainlp
 outsucc:	STRO	succmsg, d

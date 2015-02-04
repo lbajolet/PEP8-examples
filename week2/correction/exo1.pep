@@ -14,6 +14,6 @@ nb:		.BLOCK 2
 ; Greater than 10 message
 gt10msg:	.ASCII "> 10\x00"
 ; Lesser or equal to 10 message
-le10nsg:	.ASCII "<= 10\x00"
+le10msg:	.ASCII "<= 10\x00"
 
 		.END

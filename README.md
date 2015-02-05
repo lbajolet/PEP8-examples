@@ -6,6 +6,8 @@ Cette page est utilisée comme dépôt pour le matériel relatif au langage d'as
 
 Les sujets et exercices seront rédigés en Français conformément aux règlements de l'UQAM.
 
+Les corrections des exercices seront disponibles dans le dossier de la semaine, via un sous-dossier de correction.
+
 Au cas ou des personnes externes au cours souhaiteraient se renseigner sur le langage et utiliser les exercices et corrections pour se pratiquer, le contenu est également disponible en Anglais.
 
 Si du matériel est jugé manquant par les fréquenteurs de ce dépôt, vous pouvez m'en aviser via les issues de Github, je tenterai d'y répondre aussi rapidement que possible.

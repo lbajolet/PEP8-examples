@@ -22,6 +22,10 @@ Register r - CPA operand
 
 Dépendamment du résultat de l'opération, les FLAGS vont être settés à `true` (`1`) ou `false` (`0`).
 
+Une fois settés, les flags vont déterminer si un branchement est à effectuer ou non, il ne reste plus qu'a utiliser BR(L|G)(E|T) pour brancher ou non votre programme.
+
+Attention cependant, CPr n'est pas le seul à changer les valeurs des flags, un LDr ou n'importe quelle autre instruction touchant les valeurs d'un registre peut changer les flags.
+
 ## Boucles
 
 Les boucles sont juste des cas spéciaux de branchements dans lesquels le corps de la boucle va être suivi d'un branchement non-conditionnel au début de votre boucle.
@@ -71,6 +75,10 @@ Register r - CPA operand
 ~~~
 
 Depending of the result of the operation, FLAGS will be accordingly set to `true` (`1`) or `false` (`0`)
+
+Once setted, flags will determine whether a jump is executed or not, you may use BR(L|G)(T|E) to jump somewhere in your program.
+
+Do be careful with branches however as CPr is not the only instruction to change flags's values. A LDr or any other instruction that messes with a register's value may change the flags.
 
 ## Loops
 

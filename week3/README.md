@@ -118,7 +118,8 @@ Puis, affichez le contenu de la matrice ligne par ligne.
 
 ## Exercice 6
 
-En vous appuyant sur le code de l'exercice 4, créez et affichez la transposée de cette matrice.
+En vous appuyant sur le code de l'exercice 4, créez une matrice complémentaire à la première en inversant les lignes et les colonnes.
+Affichez cette matrice.
 
 Exemple:
 
@@ -259,7 +260,8 @@ Then, print its content line by line.
 
 ## Exercise 6
 
-Using the code in exercise 4, create and print the transpose of this matrix.
+Using the code in exercise 4, create a complementary matrix to the first one by inverting lines and columns.
+Then, print this matrix.
 
 Example:
 

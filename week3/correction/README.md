@@ -73,7 +73,7 @@ Correction of the exercises of week 3, sources are available in the current fold
 
 Indexed addressing is an efficient way in Pep/8 to work with arrays.
 
-As introduced in the previous page, it works by adding the actual value of register X and the operand spacifier used in parameter.
+As introduced in the previous page, it works by adding the actual value of register X and the operand specifier used in parameter.
 
 ~~~Pep-8
 	LDA	spec, x
@@ -129,4 +129,4 @@ Matrices are composed of either of two ways:
 
 In the first solution, each line is represented by shifting `sizeof(line length)` in the array, after which another shift of `sizeof(element)` is applied between each element of the line.
 
-The second option is composed by an indirection to the line, then each element is separated by a shit of size `sizeof(element)`.
+The second option is composed by an indirection to the line, then each element is separated by a shift of size `sizeof(element)`.

@@ -6,7 +6,7 @@
 
 Comme dans les langages de haut-niveau, il est possible d'écrire des sous-programmes en Pep/8, la convention d'appel en revanche change un peu des langages de haut niveau.
 
-En Pep/8, deux instructions sont disponibles pour travailler avec des sous-programmes : `CALL` et RET0`.
+En Pep/8, deux instructions sont disponibles pour travailler avec des sous-programmes : `CALL` et `RET0`.
 
 `CALL` comme son nom l'indique, sert à appeler un sous-programme. Il fonctionne d'une façon analogue à BR, on lui donne un symbole ou une adresse, il va effectuer le branchement et garder un moyen de revenir au flux d'exécution avant l'appel.
 
@@ -91,24 +91,17 @@ Ajoutez un paramètre pour renseigner la taille du tableau à vos deux méthodes
 
 ### Exercice 4
 
-On vous demande de faire le produit scalaire de deux tableaux d'une taille que vous choisirez.
-NOTE: Les tableaux doivent avoir la même taille.
-
-Votre fonction renverra un code d'erreur, 0 si tout s'est bien passé, un entier négatif dans le cas contraire.
-
-### Exercice 5
-
 Créez une fonction permettant d'accéder à un index (`x`, `y`) d'une matrice.
 Vous pouvez représenter la matrice de la façon dont vous le voulez, soit à l'aide d'un tableau unidimensionnel, soit à l'aide d'un tableau de pointeurs.
 
-### Exercice 6
+### Exercice 5
 
 Créez une fonction pour lire une chaîne de caractères de l'entrée standard et la stocker dans un tableau passé en paramètre.
 Vous passerez en paramètre également un nombre maximal de caractères à lire.
 
 La fonction retournera le nombre de caractères lus.
 
-### Exercice 7
+### Exercice 6
 
 Un carré magique est un carré possèdant plusieurs propriétés:
 
@@ -127,7 +120,7 @@ Vous devrez afficher les contrevenants à la règle en utilisant un système de 
 
 Affichez les potentiels contrevenants dans l'ordre croissant.
 
-### Exercice 8
+### Exercice 7
 
 Brainfuck est un langage ésotérique, il est conçu pour être difficile à écrire par un humain.
 
@@ -255,25 +248,18 @@ Add a parameter to both these functions to pass the length of the array.
 
 ### Exercise 4
 
-Write a function computing the scalar product of two arrays of any given length.
-NOTE: both arrays must be of the same size.
-
-Your function will return an error code, 0 if all went well, a negative integer otherwise.
-
-### Exercise 5
-
 Write a function to access an element at indexes (`x`, `y`) of a matrix.
 
 You may represent the matrix however you like, either using a single-dimensional array, or using an array of pointers.
 
-### Exercise 6
+### Exercise 5
 
 Write a function that reads a string from standard input and store it in an array given as parameter.
 You will also give a maximum length for the string as parameter.
 
 It will return the number of characters read.
 
-### Exercise 7
+### Exercise 6
 
 A Magic Square is a square that has several interesting properties:
 
@@ -292,7 +278,7 @@ You'll have to print every non-complying entity using a identifier system:
 
 Print every non-complying index in ascending order.
 
-### Exercise 8
+### Exercise 7
 
 Brainfuck is an esoteric programming language conceived to be extremely hard to write by a human being.
 

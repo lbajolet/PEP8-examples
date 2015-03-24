@@ -27,10 +27,10 @@ SUBSP	n, i ; Allocates n bytes on the stack
 Derrière, il faudra remplir les données allouées sur la pile.
 Pour ça, on devra utiliser les modes d'adressage sur la pile: `s`, `sx`, `sf`, `sxf`.
 
-`s`: sur la pile; Le spécificateur d'opérande est un décalage par rapport à SP. => Mem[SP + Spec]
-`sx`: indexé sur la pile; Le spécificateur d'opérande est un décalage par rapport à SP auquel on ajoute la valeur du registre X pour trouver l'adresse effective. => Mem[SP + Spec + X]
-`sf`: indirect sur la pile; Le spécificateur d'opérande est un décalage par rapport à SP, et à cette adresse, l'on va considérer que la valeur est un pointeur vers une ressource qui sera l'opérande. => Mem[Mem[SP + Spec]]
-`sxf`: indirect indexé sur la pile; Le spécificateur d'opérande est un décalage par rapport à SP, à cette adresse est un pointeur vers une ressource, à ce pointeur on ajoute la valeur de X pour avoir l'opérande. Mem[Mem[SP + Spec] + X]
+* `s`: sur la pile; Le spécificateur d'opérande est un décalage par rapport à SP. => Mem[SP + Spec]
+* `sx`: indexé sur la pile; Le spécificateur d'opérande est un décalage par rapport à SP auquel on ajoute la valeur du registre X pour trouver l'adresse effective. => Mem[SP + Spec + X]
+* `sf`: indirect sur la pile; Le spécificateur d'opérande est un décalage par rapport à SP, et à cette adresse, l'on va considérer que la valeur est un pointeur vers une ressource qui sera l'opérande. => Mem[Mem[SP + Spec]]
+* `sxf`: indirect indexé sur la pile; Le spécificateur d'opérande est un décalage par rapport à SP, à cette adresse est un pointeur vers une ressource, à ce pointeur on ajoute la valeur de X pour avoir l'opérande. Mem[Mem[SP + Spec] + X]
 
 On va donc utiliser les variables locales jusqu'a la sortie de la fonction actuelle, à l'épilogue de la fonction, il est important de ne jamais oublier la phase de désallocation des variables locales, sans quoi le programme va brancher n'importe où.
 Pour ça, utilisez soit `ADDSP` suivi de la taille à désallouer (en octets), soit un `RETn` pour désallouer au retour.

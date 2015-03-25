@@ -56,7 +56,7 @@ main:	SUBSP	2, i
 	ADDSP	2, i	
 	STOP
 ; Product of the multiplication
-prod:	.EQUATE 2
+prod:	.EQUATE 0
 
 ; Multiply sub-program
 ; NOTE: Only works with positive integers
@@ -78,7 +78,7 @@ mullp:	CPX	0, i
 	BR	mullp
 mulout:	RET2
 ; Increment
-inc:	.EQUATE 2
+inc:	.EQUATE 0
 ~~~
 
 ## Exercices

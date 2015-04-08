@@ -102,13 +102,7 @@ binsrch:	LDA	4, s
 		SUBSP	2, i ; Stack sz + 2
 		LDA	4, s
 		SUBA	6, s
-		SUBSP	8, i ; Call to div, stack sz + 10
-		STA	6, s
-		LDA	2, i
-		STA	4, s
-		CALL	div
-		LDA	0, s
-		ADDSP	8, i ; Stack sz + 2
+		ASRA
 		ADDA	6, s
 		STA	0, s
 		LDX	0, s
@@ -151,34 +145,6 @@ dmidltel:	SUBSP	8, i ; Stack sz + 10
 		CALL	binsrch
 		ADDSP	10, i ; Stack sz + 0
 		RET0
-
-; Integer division between two numbers
-;
-; NOTE: Will only work with positive non-zero integers
-; Other use cases will result in undefined behaviour
-;
-; Parameters:
-;	* SP + 6: Divider
-;	* SP + 8: Dividend
-;
-; Return:
-;	* SP + 2: Quotient
-;	* SP + 4: Remain
-div:		LDX	6, s
-		CPX	0, i
-		BREQ	divbyz
-		LDA	8, s
-		LDX	0, i
-divlp:		CPA	6, s
-		BRLT	divout
-		SUBA	6, s
-		ADDX	1, i
-		BR	divlp
-divout:		STA	4, s
-		STX	2, s
-		RET0
-divbyz:		STRO	divzmsg, d
-		STOP
 
 welcmsg:	.ASCII "Input an array, size first, then the elements in the array, one by one (integers only)\n\x00"
 divzmsg:	.ASCII "SIGFPE - Division by 0, aborting\n\x00"

@@ -15,10 +15,10 @@ Cette semaine, on voit les instructions de base de l'assembleur.
 
 Concrètement le workflow est généralement le même quand on travaille à un aussi bas niveau, peu importe le langage d'assemblage avec lequel on se bat (PEP/8, x86-64, z80, etc.)
 
-1- Load: On charge une valeur dans un registre
-2- Work: On effectue des opérations sur le registre
-3- Store: On décharge le registre à une place de la RAM
-4- GOTO 1
+1. Load: On charge une valeur dans un registre
+2. Work: On effectue des opérations sur le registre
+3. Store: On décharge le registre à une place de la RAM
+4. GOTO 1
 
 Concrètement, chaque programme que vous allez écrire aura cette tête.
 

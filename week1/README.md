@@ -119,7 +119,7 @@ Qu'observez-vous ?
 
 Déclarez une chaîne de caractères non terminée par un `\x00`.
 
-En dessous, déclarez un `WORD` initialisé à la valeur 41.
+En dessous, déclarez un `.BYTE` initialisé à la valeur 41.
 
 Affichez la chaîne de caractères avec un `STRO`.
 
@@ -183,7 +183,7 @@ What can you see ?
 
 Declare a String non null-terminated (`x00`)
 
-Below, declare a `WORD` initialized with value 41.
+Below, declare a `.BYTE` initialized with value 41.
 
 Print the String using STRO.
 

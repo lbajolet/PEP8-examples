@@ -1,5 +1,3 @@
-# French
-
 ## Semaine 6
 
 ### IEEE-754 Représentation binaire des nombres à virgule flottante

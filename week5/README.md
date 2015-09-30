@@ -1,5 +1,3 @@
-# French
-
 ## Semaine 5
 
 ### Sous-programmes (la revanche)

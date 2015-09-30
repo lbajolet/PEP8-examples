@@ -1,5 +1,3 @@
-# French
-
 # Semaine 4
 
 Correction des exercices de la semaine 4, les sources sont disponibles dans le dossier courant.
@@ -30,7 +28,3 @@ Il est possible de passer d'autres valeurs que 0 à RET, la valeur qu'on passe p
 On peut donc dépiler les valeurs allouées localement sur la pile à l'aide du RETn.
 
 Cependant, l'allocation sur la pile est au programme de la semaine prochaine, on pratiquera donc ça à ce moment-là !
-
-# English
-
-TODO. (Sorry for those interested, will post later)

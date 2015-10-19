@@ -60,26 +60,29 @@ Triez ce tableau du plus petit au plus grand à l'aide d'un tri à bulles.
 
 Pseudo-code Bubble Sort:
 
-~~~nit
+~~~C
+int main(int argc, char* argv[])
+{
+	int x[] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+	int xlen = 10;
+	int swapped = 1;
+	int i;
 
-var x = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
-var xlen = 10
-var swapped = true
+	while(swapped) {
+		swapped = 0;
+		for(i = 1; i < xlen; i++) {
+			if(x[i] < x[i - 1]) {
+				int tmp = x[i];
+				x[i] = x[i - 1];
+				x[i - 1] = tmp;
+				swapped = 1;
+			}
+		}
+	}
 
-while swapped do
-	swapped = false
-	for i in [1 .. xlen[ do
-		if x[i] < x[i - 1] then
-			var tmp = x[i]
-			x[i] = x[i - 1]
-			x[i - 1] = tmp
-			swapped = true
-		end
-	end
-end
-
-print x # => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-
+	for(i = 0; i < xlen; i++) { printf("%d ", x[i]); }
+	printf("\n");
+}
 ~~~
 
 ## Exercice 4

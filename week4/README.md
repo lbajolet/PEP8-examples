@@ -57,7 +57,7 @@ inc:	.BLOCK	2
 
 ### Exercice 1
 
-Vous devez faire une méthode permettant de renseigner le contenu d'un tableau par un utilisateur.
+Vous devez faire une fonction permettant de renseigner le contenu d'un tableau par un utilisateur.
 Le tableau contiendra 5 entiers.
 
 Exemple:
@@ -75,7 +75,7 @@ Done.
 ### Exercice 2
 
 Utilisez le code de l'exercice 1 pour renseigner un tableau de 5 entiers.
-Faites une méthode permettant d'afficher son contenu.
+Faites une fonction permettant d'afficher son contenu.
 
 Exemple:
 
@@ -85,7 +85,7 @@ Exemple:
 
 ### Exercice 3
 
-Ajoutez un paramètre pour renseigner la taille du tableau à vos deux méthodes.
+Ajoutez un paramètre pour renseigner la taille du tableau à vos deux fonctions.
 
 ### Exercice 4
 

@@ -140,8 +140,8 @@ Traduisez ce pseudo-code en assembleur
 var c = chari
 
 while c != '\n' do
-	if str[pos] < 'A' or if str[pos] > 'z' then print "There was a non-letter character in the string"
-	if str[pos] > 'Z' and str[i] < 'a' then print "There was a non-letter character in the string"
+	if c < 'A' or if c > 'z' then print "There was a non-letter character in the string"
+	if c > 'Z' and c < 'a' then print "There was a non-letter character in the string"
 	c = chari
 end
 

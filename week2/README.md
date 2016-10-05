@@ -7,9 +7,9 @@ Au programme:
 
 ## Intro
 
-Un branchement s'effectue depuis le flow de votre code vers des symboles ou des adresses définies directement (fortement déconseillé, à la moindre modification du code source, les adresses deviennent invalides).
+Un branchement s'effectue depuis le flot de votre code vers des symboles ou des adresses définies directement (fortement déconseillé, à la moindre modification du code source, les adresses deviennent invalides).
 
-On va travailler avec les structures de contrôle de flow que vous connaissez des langages de programmation de plus haut niveau avec des variables de types primitifs pour plus de facilité à la traduction en assembleur.
+On va travailler avec les structures de contrôle de flot que vous connaissez des langages de programmation de plus haut niveau avec des variables de types primitifs pour plus de facilité à la traduction en assembleur.
 
 Chaque exercice prendra un morceau de pseudo-code qui sera ensuite traduit en PEP-8.
 

@@ -90,7 +90,7 @@ On décale la virgule de 3 bits vers la gauche pour arriver au premier bit signi
 
 La Mantisse/Significande sera donc 100011 (le premier 1 est implicite selon la norme).
 
-On appose le biais à l'exposant: 3 + 7F => 82
+On appose le biais à l'exposant: 3 + 7F => 82(16)
 
 Maintenant que tout est calculé, on peut construire le nombre.
 

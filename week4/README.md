@@ -10,7 +10,7 @@ En Pep/8, deux instructions sont disponibles pour travailler avec des sous-progr
 
 On discutera plus en détail de quoi et comment les informations sont gardées ultérieurement.
 
-`RET0` quant à lui sert lorque la fonction a fini d'éxécuter à retourner au point d'appel. Il est donc essentiel de l'appeler à la terminaison de la fonction pour revenir au lieu d'appel et continuer normalement le programme.
+`RET0` quant à lui sert lorsque la fonction a fini d'éxécuter à retourner au point d'appel. Il est donc essentiel de l'appeler à la terminaison de la fonction pour revenir au lieu d'appel et continuer normalement le programme.
 
 NOTE: Il est possible de passer autre chose que 0 comme paramètre à RET, en effet, RET peut être appelé avec des valeurs de 0 à 7, on discutera de pourquoi plus tard dans le cours.
 

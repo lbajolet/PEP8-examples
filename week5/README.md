@@ -35,7 +35,7 @@ Pour ça, utilisez soit `ADDSP` suivi de la taille à désallouer (en octets), s
 Attention cependant, RETn est limité à 7 octets maximum, si vous allouez plus, vous devrez utiliser `ADDSP` pour désallouer vos données.
 
 Donc, pour accéder à vos variables, vous devrez utiliser des décalages numériques.
-Pour certaines fonctions, vous aurez potentiellement beaucoup de variables locales, les décalages deviennent vite ennuyants voire tompeurs à utiliser, et risquent de provoquer des bugs difficiles à tracer et à corriger.
+Pour certaines fonctions, vous aurez potentiellement beaucoup de variables locales, les décalages deviennent vite ennuyants voire trumpeurs à utiliser, et risquent de provoquer des bugs difficiles à tracer et à corriger.
 
 Pour plus de clareté donc, vous pouvez utiliser `.EQUATE` pour attribuer un décalage à vos variables.
 .EQUATE est une directive spéciale dans la mesure où elle ne sera pas présente dans le code objet, il s'agit juste d'un alias statiquevers une valeur de votre choix.

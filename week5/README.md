@@ -38,7 +38,7 @@ Donc, pour accéder à vos variables, vous devrez utiliser des décalages numér
 Pour certaines fonctions, vous aurez potentiellement beaucoup de variables locales, les décalages deviennent vite ennuyants voire trumpeurs à utiliser, et risquent de provoquer des bugs difficiles à tracer et à corriger.
 
 Pour plus de clarté donc, vous pouvez utiliser `.EQUATE` pour attribuer un décalage à vos variables.
-.EQUATE est une directive spéciale dans la mesure où elle ne sera pas présente dans le code objet, il s'agit juste d'un alias statiquevers une valeur de votre choix.
+.EQUATE est une directive spéciale dans la mesure où elle ne sera pas présente dans le code objet, il s'agit juste d'un alias statique vers une valeur de votre choix.
 Pour ceux qui ont déjà été en contact (volontaire ou forcé) avec du C, c'est un peu l'équivalent d'une macro `#define`.
 
 Exemple:

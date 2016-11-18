@@ -8,7 +8,7 @@ Les objets sur le tas sont des données accessibles par tous, pour peu qu'ils ai
 
 C'est ici par exemple que les objets se retrouvent en Java à l'appel d'un `new`.
 
-Avantage: le tas, c'est grand, et y'a pas de risque d'invalider les données situées là-bas contrairement à la pile ou les données ne sont valides qu'à l'intérieur du cadre d'activation de la fonction.
+Avantage: le tas, c'est grand, et y'a pas de risque d'invalider les données situées là-bas contrairement à la pile ou les données ne sont valides qu'à l'intérieur du cadre d'activation (En anglais: Frame) de la fonction.
 
 On va mettre dans le tas des données persistantes pour la durée de vie du programme comme des structures telles des maillons de liste chaînée, des noeuds d'arbre et autres joyeusetés.
 

@@ -1,4 +1,4 @@
-## Semaine 6
+## Semaine 7
 
 ### IEEE-754 Représentation binaire des nombres à virgule flottante
 
@@ -183,14 +183,14 @@ Convertissez en décimal le nombre `0100 0010 1111 1010 0100 0000 0000 0000`
 
 Convertissez en décimal le nombre `1111 1111 1000 0000 0000 0000 0000 0000`
 
-### Exercice 3
+### Exercice 4
 
 Convertissez en binaire demi-précision le nombre 125.25
 
-### Exercice 4
+### Exercice 5
 
 Convertissez en décimal le nombre `0100 1001 0110 0000`
 
-### Exercice 5
+### Exercice 6
 
 Convertissez en binaire simple-précision le nombre 0.5

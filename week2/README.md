@@ -140,8 +140,17 @@ Traduisez ce pseudo-code en assembleur
 var c = chari
 
 while c != '\n' do
-	if c < 'A' or if c > 'z' then print "There was a non-letter character in the string"
-	if c > 'Z' and c < 'a' then print "There was a non-letter character in the string"
+	if c < 'A' or if c > 'z' then
+		print "There was a non-letter character in the string"
+		# Since there was an error, we exit with error code 1
+		# This is useful in real-world programs, but in Pep/8,
+		# we will just represent it with a `STOP` instruction.
+		exit 1
+	end
+	if c > 'Z' and c < 'a' then
+		print "There was a non-letter character in the string"
+		exit 1
+	end
 	c = chari
 end
 
